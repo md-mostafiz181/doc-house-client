@@ -30,12 +30,13 @@ const Navbar = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
+            className="text-white"
             d="M4 6h16M4 12h8m-8 6h16" />
         </svg>
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+        className="menu menu-sm dropdown-content bg-white rounded-box z-[1] mt-3 w-52 p-2 shadow ">
        
         {navInfo}
       </ul>
