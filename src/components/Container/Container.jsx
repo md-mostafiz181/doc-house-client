@@ -2,7 +2,7 @@
 
 const Container = ({children}) => {
     return (
-        <section className="max-w-screen-lg mx-auto">
+        <section className="max-w-screen-xl mx-auto">
             {children}   
         </section>
     );
