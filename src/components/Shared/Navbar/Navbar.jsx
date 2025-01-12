@@ -14,7 +14,7 @@ const Navbar = () => {
 
     </>
     return (
-        <div className="bg-blue-300">
+        <div className="bg-[#07332f]">
             <Container>
             <div className="navbar ">
   <div className="navbar-start">
@@ -35,7 +35,7 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow ">
        
         {navInfo}
       </ul>
@@ -45,7 +45,7 @@ const Navbar = () => {
     </a>
   </div>
   <div className="navbar-end hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu menu-horizontal px-1 text-white">
       {navInfo}
     </ul>
   </div>
