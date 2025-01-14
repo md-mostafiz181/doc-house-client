@@ -1,3 +1,8 @@
 #location-part{
     padding: 50px 10px;
 }
+
+.left i{
+    width: 30px;
+    height: 300px;
+}
