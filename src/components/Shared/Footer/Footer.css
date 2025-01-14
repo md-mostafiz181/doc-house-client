@@ -1,0 +1,19 @@
+#footer-part{
+    padding: 100px 10px;
+}
+
+.footer_btn{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #F7A582;
+    margin-top: 10px;
+    transition: .4s;
+
+}
+
+.footer_btn:hover{
+    background-color: #F7A582;
+    color: black;
+}
